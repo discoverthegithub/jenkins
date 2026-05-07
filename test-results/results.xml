@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.069" tests="121" failures="0">
+  <testsuite name="Root Suite" timestamp="2026-05-05T23:24:11" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login API Integration Tests" timestamp="2026-05-05T23:24:11" tests="0" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\login.test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Successful Login Scenarios" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\login.test.js" time="0.008" failures="0">
+    <testcase name="Login API Integration Tests Successful Login Scenarios should successfully login with valid credentials" time="0.004" classname="should successfully login with valid credentials">
+    </testcase>
+    <testcase name="Login API Integration Tests Successful Login Scenarios should return username in response on successful login" time="0.001" classname="should return username in response on successful login">
+    </testcase>
+  </testsuite>
+  <testsuite name="Invalid Credentials Handling" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\login.test.js" time="0.003" failures="0">
+    <testcase name="Login API Integration Tests Invalid Credentials Handling should reject login with wrong password" time="0.000" classname="should reject login with wrong password">
+    </testcase>
+    <testcase name="Login API Integration Tests Invalid Credentials Handling should reject login with non-existing user" time="0.000" classname="should reject login with non-existing user">
+    </testcase>
+  </testsuite>
+  <testsuite name="Empty/Missing Field Handling" timestamp="2026-05-05T23:24:11" tests="5" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\login.test.js" time="0.003" failures="0">
+    <testcase name="Login API Integration Tests Empty/Missing Field Handling should reject login with empty email" time="0.000" classname="should reject login with empty email">
+    </testcase>
+    <testcase name="Login API Integration Tests Empty/Missing Field Handling should reject login with empty password" time="0.000" classname="should reject login with empty password">
+    </testcase>
+    <testcase name="Login API Integration Tests Empty/Missing Field Handling should reject login with missing email field" time="0.001" classname="should reject login with missing email field">
+    </testcase>
+    <testcase name="Login API Integration Tests Empty/Missing Field Handling should reject login with missing password field" time="0.000" classname="should reject login with missing password field">
+    </testcase>
+    <testcase name="Login API Integration Tests Empty/Missing Field Handling should reject login with both fields empty" time="0.001" classname="should reject login with both fields empty">
+    </testcase>
+  </testsuite>
+  <testsuite name="Invalid Email Format Handling" timestamp="2026-05-05T23:24:11" tests="3" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\login.test.js" time="0.002" failures="0">
+    <testcase name="Login API Integration Tests Invalid Email Format Handling should reject login with invalid email format: no @" time="0.001" classname="should reject login with invalid email format: no @">
+    </testcase>
+    <testcase name="Login API Integration Tests Invalid Email Format Handling should reject login with email missing domain" time="0.000" classname="should reject login with email missing domain">
+    </testcase>
+    <testcase name="Login API Integration Tests Invalid Email Format Handling should reject login with email missing local part" time="0.000" classname="should reject login with email missing local part">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password Length Validation" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\login.test.js" time="0.002" failures="0">
+    <testcase name="Login API Integration Tests Password Length Validation should reject password shorter than 6 characters" time="0.000" classname="should reject password shorter than 6 characters">
+    </testcase>
+    <testcase name="Login API Integration Tests Password Length Validation should accept exactly 6 character password" time="0.001" classname="should accept exactly 6 character password">
+    </testcase>
+  </testsuite>
+  <testsuite name="Response Structure" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\login.test.js" time="0.004" failures="0">
+    <testcase name="Login API Integration Tests Response Structure should return correct response structure on success" time="0.000" classname="should return correct response structure on success">
+    </testcase>
+    <testcase name="Login API Integration Tests Response Structure should return correct response structure on error" time="0.002" classname="should return correct response structure on error">
+    </testcase>
+  </testsuite>
+  <testsuite name="Signup API Integration Tests" timestamp="2026-05-05T23:24:11" tests="0" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Successful Signup Scenarios" timestamp="2026-05-05T23:24:11" tests="4" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.004" failures="0">
+    <testcase name="Signup API Integration Tests Successful Signup Scenarios should successfully register with valid credentials" time="0.001" classname="should successfully register with valid credentials">
+    </testcase>
+    <testcase name="Signup API Integration Tests Successful Signup Scenarios should register user with different valid email domains" time="0.001" classname="should register user with different valid email domains">
+    </testcase>
+    <testcase name="Signup API Integration Tests Successful Signup Scenarios should accept exactly minimum username length (3 chars)" time="0.000" classname="should accept exactly minimum username length (3 chars)">
+    </testcase>
+    <testcase name="Signup API Integration Tests Successful Signup Scenarios should accept exactly minimum password length (6 chars)" time="0.000" classname="should accept exactly minimum password length (6 chars)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Missing Fields Handling" timestamp="2026-05-05T23:24:11" tests="5" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.004" failures="0">
+    <testcase name="Signup API Integration Tests Missing Fields Handling should reject signup with missing username" time="0.000" classname="should reject signup with missing username">
+    </testcase>
+    <testcase name="Signup API Integration Tests Missing Fields Handling should reject signup with missing email" time="0.001" classname="should reject signup with missing email">
+    </testcase>
+    <testcase name="Signup API Integration Tests Missing Fields Handling should reject signup with missing password" time="0.000" classname="should reject signup with missing password">
+    </testcase>
+    <testcase name="Signup API Integration Tests Missing Fields Handling should reject signup with missing confirmPassword" time="0.000" classname="should reject signup with missing confirmPassword">
+    </testcase>
+    <testcase name="Signup API Integration Tests Missing Fields Handling should reject signup with all empty fields" time="0.000" classname="should reject signup with all empty fields">
+    </testcase>
+  </testsuite>
+  <testsuite name="Username Validation" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.001" failures="0">
+    <testcase name="Signup API Integration Tests Username Validation should reject username shorter than 3 characters" time="0.000" classname="should reject username shorter than 3 characters">
+    </testcase>
+    <testcase name="Signup API Integration Tests Username Validation should reject single character username" time="0.001" classname="should reject single character username">
+    </testcase>
+  </testsuite>
+  <testsuite name="Email Validation" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.001" failures="0">
+    <testcase name="Signup API Integration Tests Email Validation should reject invalid email format: no @" time="0.001" classname="should reject invalid email format: no @">
+    </testcase>
+    <testcase name="Signup API Integration Tests Email Validation should reject email without domain" time="0.000" classname="should reject email without domain">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password Validation" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.001" failures="0">
+    <testcase name="Signup API Integration Tests Password Validation should reject password shorter than 6 characters" time="0.000" classname="should reject password shorter than 6 characters">
+    </testcase>
+    <testcase name="Signup API Integration Tests Password Validation should reject 5 character password (boundary)" time="0.001" classname="should reject 5 character password (boundary)">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password Mismatch Handling" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.001" failures="0">
+    <testcase name="Signup API Integration Tests Password Mismatch Handling should reject signup when passwords do not match" time="0.001" classname="should reject signup when passwords do not match">
+    </testcase>
+    <testcase name="Signup API Integration Tests Password Mismatch Handling should reject when confirm password is empty but password is not" time="0.000" classname="should reject when confirm password is empty but password is not">
+    </testcase>
+  </testsuite>
+  <testsuite name="Duplicate User Prevention" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.002" failures="0">
+    <testcase name="Signup API Integration Tests Duplicate User Prevention should reject signup with existing email" time="0.001" classname="should reject signup with existing email">
+    </testcase>
+    <testcase name="Signup API Integration Tests Duplicate User Prevention should allow same username with different email" time="0.001" classname="should allow same username with different email">
+    </testcase>
+  </testsuite>
+  <testsuite name="Response Structure" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.002" failures="0">
+    <testcase name="Signup API Integration Tests Response Structure should return correct response structure on success" time="0.001" classname="should return correct response structure on success">
+    </testcase>
+    <testcase name="Signup API Integration Tests Response Structure should return correct response structure on error" time="0.001" classname="should return correct response structure on error">
+    </testcase>
+  </testsuite>
+  <testsuite name="Advanced Interaction Scenarios" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\integration\signup.test.js" time="0.001" failures="0">
+    <testcase name="Signup API Integration Tests Advanced Interaction Scenarios should handle rapid multiple signup attempts" time="0.001" classname="should handle rapid multiple signup attempts">
+    </testcase>
+    <testcase name="Signup API Integration Tests Advanced Interaction Scenarios should handle special characters in input" time="0.000" classname="should handle special characters in input">
+    </testcase>
+  </testsuite>
+  <testsuite name="Edge Cases and Boundary Testing" timestamp="2026-05-05T23:24:11" tests="0" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Special Characters in Email" timestamp="2026-05-05T23:24:11" tests="3" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Email should accept email with dots: first.last@example.com" time="0.000" classname="should accept email with dots: first.last@example.com">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Email should accept email with special chars that pass regex check" time="0.000" classname="should accept email with special chars that pass regex check">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Email should accept email with hyphen in domain" time="0.000" classname="should accept email with hyphen in domain">
+    </testcase>
+  </testsuite>
+  <testsuite name="Special Characters in Password" timestamp="2026-05-05T23:24:11" tests="3" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Password should accept password with symbols: Pass@word123" time="0.000" classname="should accept password with symbols: Pass@word123">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Password should accept password with hash: Pass#123456" time="0.000" classname="should accept password with hash: Pass#123456">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Password should accept password with mixed special chars: P@ss!w#rd" time="0.000" classname="should accept password with mixed special chars: P@ss!w#rd">
+    </testcase>
+  </testsuite>
+  <testsuite name="Special Characters in Username" timestamp="2026-05-05T23:24:11" tests="3" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Username should accept username with underscore: test_user" time="0.000" classname="should accept username with underscore: test_user">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Username should accept username with numbers: user123" time="0.000" classname="should accept username with numbers: user123">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Special Characters in Username should accept username with hyphen: test-user" time="0.000" classname="should accept username with hyphen: test-user">
+    </testcase>
+  </testsuite>
+  <testsuite name="Boundary Value Testing" timestamp="2026-05-05T23:24:11" tests="7" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Boundary Value Testing should accept username at minimum boundary: exactly 3 chars" time="0.000" classname="should accept username at minimum boundary: exactly 3 chars">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Boundary Value Testing should reject username below minimum boundary: 2 chars" time="0.000" classname="should reject username below minimum boundary: 2 chars">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Boundary Value Testing should accept password at minimum boundary: exactly 6 chars" time="0.000" classname="should accept password at minimum boundary: exactly 6 chars">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Boundary Value Testing should reject password below minimum boundary: 5 chars" time="0.000" classname="should reject password below minimum boundary: 5 chars">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Boundary Value Testing should accept very long username: 50+ characters" time="0.000" classname="should accept very long username: 50+ characters">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Boundary Value Testing should accept very long password: 100+ characters" time="0.000" classname="should accept very long password: 100+ characters">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Boundary Value Testing should accept very long email: valid format with length" time="0.000" classname="should accept very long email: valid format with length">
+    </testcase>
+  </testsuite>
+  <testsuite name="Security Testing - SQL Injection Prevention" timestamp="2026-05-05T23:24:11" tests="3" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Security Testing - SQL Injection Prevention should accept email-like text even with SQL chars (app should sanitize)" time="0.000" classname="should accept email-like text even with SQL chars (app should sanitize)">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Security Testing - SQL Injection Prevention should handle SQL injection attempt in password" time="0.000" classname="should handle SQL injection attempt in password">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Security Testing - SQL Injection Prevention should handle SQL injection attempt in username" time="0.000" classname="should handle SQL injection attempt in username">
+    </testcase>
+  </testsuite>
+  <testsuite name="Whitespace and Formatting" timestamp="2026-05-05T23:24:11" tests="5" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.002" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Whitespace and Formatting should reject email with leading space" time="0.000" classname="should reject email with leading space">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Whitespace and Formatting should reject email with trailing space" time="0.000" classname="should reject email with trailing space">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Whitespace and Formatting should reject email with internal space" time="0.000" classname="should reject email with internal space">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Whitespace and Formatting should reject password with only spaces" time="0.000" classname="should reject password with only spaces">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Whitespace and Formatting should accept username with no spaces: valid" time="0.000" classname="should accept username with no spaces: valid">
+    </testcase>
+  </testsuite>
+  <testsuite name="Case Sensitivity" timestamp="2026-05-05T23:24:11" tests="3" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Case Sensitivity should accept email with uppercase letters" time="0.000" classname="should accept email with uppercase letters">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Case Sensitivity should accept password with mixed case" time="0.000" classname="should accept password with mixed case">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Case Sensitivity should accept username with uppercase" time="0.000" classname="should accept username with uppercase">
+    </testcase>
+  </testsuite>
+  <testsuite name="Numeric Only Input" timestamp="2026-05-05T23:24:11" tests="4" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Numeric Only Input should accept numeric password: 123456" time="0.000" classname="should accept numeric password: 123456">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Numeric Only Input should accept numeric username if &gt;= 3 chars: 123" time="0.001" classname="should accept numeric username if &gt;= 3 chars: 123">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Numeric Only Input should reject numeric email: 12345 (no domain)" time="0.000" classname="should reject numeric email: 12345 (no domain)">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Numeric Only Input should reject numeric email without @: 123@456" time="0.000" classname="should reject numeric email without @: 123@456">
+    </testcase>
+  </testsuite>
+  <testsuite name="Unicode and International Characters" timestamp="2026-05-05T23:24:11" tests="2" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Unicode and International Characters should accept email with numbers and hyphens in domain" time="0.000" classname="should accept email with numbers and hyphens in domain">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Unicode and International Characters should handle username with international chars" time="0.000" classname="should handle username with international chars">
+    </testcase>
+  </testsuite>
+  <testsuite name="Null and Undefined Edge Cases" timestamp="2026-05-05T23:24:11" tests="5" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\edge-cases.test.js" time="0.001" failures="0">
+    <testcase name="Edge Cases and Boundary Testing Null and Undefined Edge Cases should handle null as email" time="0.000" classname="should handle null as email">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Null and Undefined Edge Cases should handle undefined as email" time="0.000" classname="should handle undefined as email">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Null and Undefined Edge Cases should handle NaN as email" time="0.000" classname="should handle NaN as email">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Null and Undefined Edge Cases should handle empty object as email" time="0.001" classname="should handle empty object as email">
+    </testcase>
+    <testcase name="Edge Cases and Boundary Testing Null and Undefined Edge Cases should handle primitive conversion appropriately" time="0.000" classname="should handle primitive conversion appropriately">
+    </testcase>
+  </testsuite>
+  <testsuite name="Validation Functions - Unit Tests" timestamp="2026-05-05T23:24:11" tests="0" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\validation.test.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Email Validation" timestamp="2026-05-05T23:24:11" tests="10" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\validation.test.js" time="0.005" failures="0">
+    <testcase name="Validation Functions - Unit Tests Email Validation should accept valid email format: user@example.com" time="0.000" classname="should accept valid email format: user@example.com">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should accept valid email format: test.user@domain.co.uk" time="0.000" classname="should accept valid email format: test.user@domain.co.uk">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should accept email with plus sign: user+tag@example.com" time="0.000" classname="should accept email with plus sign: user+tag@example.com">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should reject email missing @ symbol" time="0.000" classname="should reject email missing @ symbol">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should reject email missing domain: user@" time="0.000" classname="should reject email missing domain: user@">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should reject email with missing local part: @example.com" time="0.001" classname="should reject email with missing local part: @example.com">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should reject empty email string" time="0.000" classname="should reject empty email string">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should reject email with spaces" time="0.000" classname="should reject email with spaces">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should reject all invalid emails from test data" time="0.000" classname="should reject all invalid emails from test data">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Email Validation should accept all valid emails from test data" time="0.000" classname="should accept all valid emails from test data">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password Validation" timestamp="2026-05-05T23:24:11" tests="12" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\validation.test.js" time="0.003" failures="0">
+    <testcase name="Validation Functions - Unit Tests Password Validation should accept password with 6 characters: 123456" time="0.000" classname="should accept password with 6 characters: 123456">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should accept password longer than 6 characters: Password123" time="0.000" classname="should accept password longer than 6 characters: Password123">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should accept password with special characters: Pass@123" time="0.001" classname="should accept password with special characters: Pass@123">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should reject password with less than 6 characters: pass" time="0.000" classname="should reject password with less than 6 characters: pass">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should reject short password: 123" time="0.000" classname="should reject short password: 123">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should handle empty password string appropriately" time="0.000" classname="should handle empty password string appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should handle null password appropriately" time="0.000" classname="should handle null password appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should handle undefined password appropriately" time="0.001" classname="should handle undefined password appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should accept all valid passwords from test data" time="0.000" classname="should accept all valid passwords from test data">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should reject short passwords from test data appropriately" time="0.000" classname="should reject short passwords from test data appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should handle boundary: exactly 6 characters" time="0.000" classname="should handle boundary: exactly 6 characters">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Password Validation should reject 5 character password: boundary" time="0.000" classname="should reject 5 character password: boundary">
+    </testcase>
+  </testsuite>
+  <testsuite name="Username Validation" timestamp="2026-05-05T23:24:11" tests="12" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\validation.test.js" time="0.003" failures="0">
+    <testcase name="Validation Functions - Unit Tests Username Validation should accept username with 3 characters: abc" time="0.000" classname="should accept username with 3 characters: abc">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should accept longer username: testuser123" time="0.000" classname="should accept longer username: testuser123">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should accept username with underscore: user_name" time="0.000" classname="should accept username with underscore: user_name">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should reject username with 2 characters: ab" time="0.000" classname="should reject username with 2 characters: ab">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should reject single character username: a" time="0.000" classname="should reject single character username: a">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should handle empty username string appropriately" time="0.000" classname="should handle empty username string appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should handle null username appropriately" time="0.000" classname="should handle null username appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should handle undefined username appropriately" time="0.000" classname="should handle undefined username appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should accept all valid usernames from test data" time="0.000" classname="should accept all valid usernames from test data">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should reject short usernames from test data appropriately" time="0.000" classname="should reject short usernames from test data appropriately">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should handle boundary: exactly 3 characters" time="0.000" classname="should handle boundary: exactly 3 characters">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Username Validation should reject 2 character username: boundary" time="0.000" classname="should reject 2 character username: boundary">
+    </testcase>
+  </testsuite>
+  <testsuite name="Field Empty Validation" timestamp="2026-05-05T23:24:11" tests="6" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\validation.test.js" time="0.003" failures="0">
+    <testcase name="Validation Functions - Unit Tests Field Empty Validation should return true for empty string" time="0.000" classname="should return true for empty string">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Field Empty Validation should return true for whitespace only" time="0.000" classname="should return true for whitespace only">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Field Empty Validation should return true for null" time="0.000" classname="should return true for null">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Field Empty Validation should return true for undefined" time="0.000" classname="should return true for undefined">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Field Empty Validation should return false for valid input" time="0.000" classname="should return false for valid input">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Field Empty Validation should return false for text with numbers" time="0.001" classname="should return false for text with numbers">
+    </testcase>
+  </testsuite>
+  <testsuite name="Combined Validation Scenarios" timestamp="2026-05-05T23:24:11" tests="4" file="C:\Users\786\OneDrive - FAST National University\Desktop\sts\tests\unit\validation.test.js" time="0.001" failures="0">
+    <testcase name="Validation Functions - Unit Tests Combined Validation Scenarios should validate complete signup form with all valid data" time="0.000" classname="should validate complete signup form with all valid data">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Combined Validation Scenarios should fail form validation if email is invalid" time="0.000" classname="should fail form validation if email is invalid">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Combined Validation Scenarios should fail form validation if password is too short" time="0.000" classname="should fail form validation if password is too short">
+    </testcase>
+    <testcase name="Validation Functions - Unit Tests Combined Validation Scenarios should fail form validation if username is too short" time="0.000" classname="should fail form validation if username is too short">
+    </testcase>
+  </testsuite>
+</testsuites>

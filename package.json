@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-auth-app",
+  "version": "1.0.0",
+  "description": "Node.js Authentication Application with Login/Signup System",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "test": "mocha tests/**/*.test.js --reporter spec",
+    "test:unit": "mocha tests/unit/**/*.test.js --reporter spec",
+    "test:boundary": "mocha tests/boundary/**/*.test.js --reporter spec",
+    "test:integration": "mocha tests/integration/**/*.test.js --reporter spec",
+    "test:verbose": "mocha tests/**/*.test.js --reporter spec",
+    "test:report": "mocha tests/**/*.test.js --reporter mochawesome --reporter-options reportDir=test-reports,reportFilename=report.html",
+    "test:junit": "mocha tests/**/*.test.js --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results/results.xml"
+  },
+  "keywords": [
+    "authentication",
+    "nodejs",
+    "login",
+    "signup"
+  ],
+  "author": "Student",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.2.1",
+    "mochawesome": "^7.1.3"
+  }
+}
