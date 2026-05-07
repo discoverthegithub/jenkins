@@ -25,7 +25,7 @@ class SignupPage {
    */
   getUsernameInput() {
     return {
-      id: this.selectors.usernameInput,
+      locator: this.selectors.usernameInput,
       type: 'text'
     };
   }
@@ -35,7 +35,7 @@ class SignupPage {
    */
   getEmailInput() {
     return {
-      id: this.selectors.emailInput,
+      locator: this.selectors.emailInput,
       type: 'text'
     };
   }
@@ -45,7 +45,7 @@ class SignupPage {
    */
   getPasswordInput() {
     return {
-      id: this.selectors.passwordInput,
+      locator: this.selectors.passwordInput,
       type: 'password'
     };
   }
