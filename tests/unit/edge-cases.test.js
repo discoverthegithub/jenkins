@@ -47,6 +47,21 @@ describe('Edge Cases and Boundary Testing', function() {
     });
   });
 
+  describe('Spec Characters in Password', function() {
+    
+    it('should accept password with symbols: Pass@word@123', function() {
+      expect(passwordValidator('Pass@word@123')).to.be.true;
+    });
+
+    it('should accept password with hash: Pass#123456', function() {
+      expect(passwordValidator('Pass#123456')).to.be.true;
+    });
+
+    it('should accept password with mixed special chars: P@ss!w#rd', function() {
+      expect(passwordValidator('P@ss!w#rd')).to.be.true;
+    });
+  });
+
   describe('Special Characters in Username', function() {
     
     it('should accept username with underscore: test_user', function() {
